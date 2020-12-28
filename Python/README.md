@@ -6,10 +6,10 @@ Exports zonal statistics as a .csv.
 Primary setup contact (contact for any issues withi setting up the zonal stats example and running it):\
   -Caleb Pan - caleb.pan@usda.gov
  
- Primary authors (contact if any major bugs are found):
+ Primary authors (contact if any major bugs are found):\
   -Caleb Pan - caleb.pan@usda.gov
   
- **Dependencies**
+ **Dependencies**\
  -Python 3
  -rasterio
  -geopandas
