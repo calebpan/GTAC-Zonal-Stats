@@ -22,14 +22,17 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
  - Recommended: ```git clone https://github.com/calebpan/GTAC-Zonal-Stats.git```
  - If downloading, download .zip and unzip the file.
    
-## **Running script**
+### **Running script**
  Open zonalStats.py using the conda environment and update the following variables:\
 - Set the specified 'root' to your local root directory and the outtable filename.
 - Set the specified 'shpfile' and 'imagedir' directories.
-  - E.g.
+  - E.g.\
             ```root = r'C:/Users/cpan/GitHub/GTAC-ZS/'```\
             ```shpfile = root + 'Python/data/shps/FVS_polys.shp'```\
             ```imagedir = root + 'Python/data/images/'```\
             ```outtable = root + 'Python/data/output/zonalStats.csv'```
 
-            
+### **Script workflow**
+- ```getnames``` creates a list input raster basenames using the image directory as an input. The script then iterates through this new list to then calculate zonal stats.\
+Using ```rasterio.open()``` we open each raster, covert it an array ```raster.readread(1).astype(np.float)``` and then transform the array from rows/col to xy using the ```raster.transform()```.
+
