@@ -23,8 +23,8 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
    If downloading, download .zip and unzip the file.
    
 **Running script**\
-  Open zonalStats.py using the conda environment and update the following variables:
-      -Set the specified 'root' to your local root directory and the outtable filename.
+  Open zonalStats.py using the conda environment and update the following variables:\
+      -Set the specified 'root' to your local root directory and the outtable filename.\
       -Set the specified 'shpfile' and 'imagedir' directories.\
         E.g.\
             ```root = r'C:/Users/cpan/GitHub/GTAC-ZS/'```\
