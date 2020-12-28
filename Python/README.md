@@ -37,4 +37,5 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
 - Now with a raster open we can call the ```zonalstats``` function. This this function iterates through each feathure in the input shapefile, using ```fiona```. 
 - The real work is being performed with ```refmean = zonal_stats(poly, array, affine = affine, stats =['mean', 'median', 'std'])```. Here, the mean, median, and std are being calcluated using the input feature and raster.
 - The stats are then appended to lists along with the object id and put into a dataframe.
+- Dataframes are calculated for each input raster. When multiple rasters are used, they are concatanated to the ```statsdf = pd.DataFrame()``` and is later exported to .csv using ```stats.to_csv(outtable)```.
 
