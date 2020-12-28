@@ -15,7 +15,7 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
  - geopandas
  
  ## **Using**
- Best if used within a conda environment. In your env, install rasterio and geopandas. May need to install glob as well.\
+ Best if used within a conda environment. In your env, install ```rasterio``` and ```geopandas```. May also need to install ```glob```.
 -  ```conda install -c conda-forge rasterio```
 -  ```conda install -c conda-forge geopandas```
  Clone or download this repository
