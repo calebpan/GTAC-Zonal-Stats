@@ -16,17 +16,17 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
  
  ## **Using**
  Best if used within a conda environment. In your env, install rasterio and geopandas. May need to install glob as well.\
-   ```conda install -c conda-forge rasterio```\
-   ```conda install -c conda-forge geopandas```\
+-  ```conda install -c conda-forge rasterio```\
+-  ```conda install -c conda-forge geopandas```\
  Clone or download this repository
-   Recommended: ```git clone https://github.com/calebpan/GTAC-Zonal-Stats.git```
-   If downloading, download .zip and unzip the file.
+ - Recommended: ```git clone https://github.com/calebpan/GTAC-Zonal-Stats.git```
+ - If downloading, download .zip and unzip the file.
    
 ## **Running script**
-  Open zonalStats.py using the conda environment and update the following variables:\
-      - Set the specified 'root' to your local root directory and the outtable filename.\
-      - Set the specified 'shpfile' and 'imagedir' directories.\
-        E.g.\
+ Open zonalStats.py using the conda environment and update the following variables:\
+- Set the specified 'root' to your local root directory and the outtable filename.\
+- Set the specified 'shpfile' and 'imagedir' directories.\
+  - E.g.\
             ```root = r'C:/Users/cpan/GitHub/GTAC-ZS/'```\
             ```shpfile = root + 'Python/data/shps/FVS_polys.shp'```\
             ```imagedir = root + 'Python/data/images/'```\
