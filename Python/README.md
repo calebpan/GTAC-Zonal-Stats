@@ -4,15 +4,15 @@ Exports zonal statistics as a .csv.
 
 ## **Primary POCs**
 Primary setup contact (contact for any issues withi setting up the zonal stats example and running it):\
-  -Caleb Pan - caleb.pan@usda.gov
+  - Caleb Pan - caleb.pan@usda.gov
  
  Primary authors (contact if any major bugs are found):\
-  -Caleb Pan - caleb.pan@usda.gov
+  - Caleb Pan - caleb.pan@usda.gov
   
  ## **Dependencies**
- -Python 3\
- -rasterio\
- -geopandas
+ - Python 3\
+ - rasterio\
+ - geopandas
  
  ## **Using**
  Best if used within a conda environment. In your env, install rasterio and geopandas. May need to install glob as well.\
@@ -24,8 +24,8 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
    
 ## **Running script**
   Open zonalStats.py using the conda environment and update the following variables:\
-      -Set the specified 'root' to your local root directory and the outtable filename.\
-      -Set the specified 'shpfile' and 'imagedir' directories.\
+      - Set the specified 'root' to your local root directory and the outtable filename.\
+      - Set the specified 'shpfile' and 'imagedir' directories.\
         E.g.\
             ```root = r'C:/Users/cpan/GitHub/GTAC-ZS/'```\
             ```shpfile = root + 'Python/data/shps/FVS_polys.shp'```\
