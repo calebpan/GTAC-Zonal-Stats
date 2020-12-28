@@ -18,7 +18,7 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
  Best if used within a conda environment. In your env, install ```rasterio``` and ```geopandas```. May also need to install ```glob```.
 -  ```conda install -c conda-forge rasterio```
 -  ```conda install -c conda-forge geopandas```
- Clone or download this repository\
+- Clone or download this repository
  - Recommended: ```git clone https://github.com/calebpan/GTAC-Zonal-Stats.git```
  - If downloading, download .zip and unzip the file.
    
