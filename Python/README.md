@@ -28,9 +28,9 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
       Set the specified 'shpfile' and 'imagedir' directories.
         E.g.\
         ```python
-            root = r'C:/Users/cpan/GitHub/GTAC-ZS/'
-            shpfile = root + 'Python/data/shps/FVS_polys.shp'
-            imagedir = root + 'Python/data/images/'
+            root = r'C:/Users/cpan/GitHub/GTAC-ZS/'\
+            shpfile = root + 'Python/data/shps/FVS_polys.shp'\
+            imagedir = root + 'Python/data/images/'\
             outtable = root + 'Python/data/output/zonalStats.csv'
         ```
             
