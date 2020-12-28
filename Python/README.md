@@ -24,8 +24,8 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
    
 **Running script**\
   Open zonalStats.py using the conda environment and update the following variables:
-      Set the specified 'root' to your local root directory and the outtable filename.
-      Set the specified 'shpfile' and 'imagedir' directories.
+      -Set the specified 'root' to your local root directory and the outtable filename.
+      -Set the specified 'shpfile' and 'imagedir' directories.\
         E.g.\
             ```root = r'C:/Users/cpan/GitHub/GTAC-ZS/'```\
             ```shpfile = root + 'Python/data/shps/FVS_polys.shp'```\
@@ -33,8 +33,3 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
             ```outtable = root + 'Python/data/output/zonalStats.csv'```
 
             
-```javascript
-function test() {
- console.log("look ma’, no spaces");
-}
-```
