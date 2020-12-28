@@ -12,7 +12,7 @@ Created on Mon Jul  8 12:40:16 2019
 # 
 # Outputs: a table with zonal statistics
 # 
-# Dependecies: rasterio, geopandas, fiona, os, glob
+# Dependencies: rasterio, geopandas, fiona, os, glob
 # 
 # The input raster directory and shapefile follow the repo structure, however,
 # please feel free to change and ajust these to match your own directories and
