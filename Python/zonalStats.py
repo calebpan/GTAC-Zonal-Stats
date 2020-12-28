@@ -76,7 +76,7 @@ def zonalstats(array, affine, varname, shp, uniqueID):
         with fiona.open(shpfile) as src:
             for feature in src:
                 idval.append(feature['properties'][uniqueID])
-               # settingid.append(feature['properties']['SETTING_ID'])
+              
                 poly = feature['geometry']
                 refmean = zonal_stats(poly, array, affine = affine,\
                                       stats=['mean','median','std'])
