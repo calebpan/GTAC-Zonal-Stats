@@ -6,7 +6,8 @@
 // THE POINTS ARE INPUTS AS A CSV STORED AS AN ASSET AND THE RASTER 
 // CAN BE ANY. IN THIS EXAMPLE, THE RASTER IS FRACTIONAL FOREST COVER
 
-//var snotel = users/calebpan/Assets/SNOTEL.csv
+
+var snotel = '<users/username/Assets/SNOTEL_STATIONS.csv>' //upload snotel shp to your assets
 
 var mod44 = ee.ImageCollection('MOD44B.006 Terra Vegetation Continuous Fields Yearly Global 250m')
 var tc = mod44.select(0)// SELECT PERCENT TREE COVER (BAND)
