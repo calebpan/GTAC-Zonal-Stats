@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul  8 12:40:16 2019
+Created by Caleb G. Pan
+RedCastle Resources, Inc.
+caleb.pan@usda.gov
+
+Given a directory of raster images, calculates zonal statistics using a
+predefined set of zone features.
 
 @author: cpan
 """
