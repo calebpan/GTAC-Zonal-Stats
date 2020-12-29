@@ -33,7 +33,7 @@ Primary setup contact (contact for any issues withi setting up the zonal stats e
             ```outtable = root + 'Python/data/output/zonalStats.csv'```
 
 ### **Script workflow**
-- ```getnames``` creates a list input raster basenames using the image directory as an input. The script then iterates through this new list to then calculate zonal stats. Using ```rasterio.open()``` we open each raster, covert it an array ```raster.readread(1).astype(np.float)``` and then transform the array from rows/col to xy using the ```raster.transform()```.
+- ```getnames``` creates a list input raster basenames using the image directory as an input. The script then iterates through this new list to then calculate zonal stats. Using ```rasterio.open()``` we open each raster, covert it an array ```raster.read(1).astype(np.float)``` and then transform the array from rows/col to xy using the ```raster.transform()```.
 - Now with a raster open we can call the ```zonalstats``` function. This this function iterates through each feathure in the input shapefile, using ```fiona```. 
 - The real work is being performed with ```refmean = zonal_stats(poly, array, affine = affine, stats =['mean', 'median', 'std'])```. Here, the mean, median, and std are being calcluated using the input feature and raster.
 - The stats are then appended to lists along with the object id and put into a dataframe.
