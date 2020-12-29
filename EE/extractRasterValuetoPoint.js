@@ -20,10 +20,8 @@ var img = ee.Image(listOfImages.get(15)) // SELECT THE MOST RECENT YEAR
 print(img);
 print(snotel);
 
-var clipped = img.clip(extent);
-print(clipped,'clipped');
 Map.addLayer(snotel);
-Map.addLayer(clipped);
+Map.addLayer(img);
 
 var ptid = 'STID'
 var rastervar = 'FF'
@@ -31,7 +29,7 @@ var rasterproperty = 'Percent_Tree_Cover'
 
 // EXTRACT VALUES AT POINTS
 var outcoll = ee.FeatureCollection(snotel.map(function(ft){
-    var rasterstats = clipped.reduceRegion({
+    var rasterstats = img.reduceRegion({
       reducer: ee.Reducer.median(),
       geometry: ft.geometry(),
       scale: 400,
