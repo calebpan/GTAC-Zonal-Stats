@@ -1,5 +1,5 @@
 # GTAC-Zonal-Stats
-Repo for GTAC Zonal Stats Group
+Repo for RCR-GTAC Zonal Stats Group
 
 This repo is meant to serve as a resource for individuals that use zonal statistics in some capacity in their workflow.
 Provided are several methods to extract zonal stats using varying languages including Python, R, and JS.
